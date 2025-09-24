@@ -1,16 +1,25 @@
-# profile_hub
+# User List App
 
-A new Flutter project.
+Small Flutter app that fetches users from https://jsonplaceholder.typicode.com/users and displays name + email in a list.
 
-## Getting Started
+## Features
+- Loads users from public API
+- Shows loading indicator
+- Pull-to-refresh
+- Error handling with retry
+- Search by name
+- Detail screen per user
 
-This project is a starting point for a Flutter application.
+## Run locally
+1. Install Flutter (stable channel). See https://flutter.dev/docs for instructions.
+2. Clone repo:
+   git clone <https://github.com/MuhammedAnfal/profile_hub.git>
+3. Get packages:
+   flutter pub get
+4. Run:
+   flutter run
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Decisions & assumptions
+- State management: Riverpod (for predictable and testable state)
+- Simple UI using Material widgets ( RefreshIndicator)
+- No persistent storage required (API-only for task scope)
