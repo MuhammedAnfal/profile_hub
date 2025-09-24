@@ -1,4 +1,4 @@
-# User List App
+# 📱 Profile Hub
 
 Small Flutter app that fetches users from https://jsonplaceholder.typicode.com/users and displays name + email in a list.
 
