@@ -18,7 +18,9 @@ Small Flutter app that fetches users from https://jsonplaceholder.typicode.com/u
 3. Get packages:
    flutter pub get
 4. Run:
-   flutter run
+   flutter run!
+ 
+ apk, images link:https://drive.google.com/drive/folders/1X1xsBS3pvGdWfToQXnBvBi3-YeHv9RqT
 
 ## Decisions & assumptions
 - State management: Riverpod (for predictable and testable state)
