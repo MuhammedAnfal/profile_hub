@@ -9,6 +9,7 @@ Small Flutter app that fetches users from https://jsonplaceholder.typicode.com/u
 - Error handling with retry
 - Search by name
 - Detail screen per user
+- animation
 
 ## Run locally
 1. Install Flutter (stable channel). See https://flutter.dev/docs for instructions.
